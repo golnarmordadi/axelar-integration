@@ -1,0 +1,10 @@
+chains:
+  - name: ganache-0
+    url: 
+    privateKey: 
+    gateway: 
+  - name: ganache-1
+    url: 
+    confirmation: 1
+    privateKey: 
+    gateway: 

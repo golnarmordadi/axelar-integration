@@ -1,0 +1,19 @@
+[chains]
+[[chains]]
+id = "your-chain-id"
+rpc_addr = "http://localhost:26657"
+grpc_addr = "http://localhost:9090"
+websocket_addr = "ws://localhost:26657/websocket"
+
+[[chains]]
+id = "axelar-testnet"
+rpc_addr = "https://rpc.testnet.axelar.dev"
+grpc_addr = "https://grpc.testnet.axelar.dev"
+websocket_addr = "wss://rpc.testnet.axelar.dev/websocket"
+
+[paths]
+[[paths]]
+src_chain = "your-chain-id"
+src_port = "transfer"
+dst_chain = "axelar-testnet"
+dst_port = "transfer"
