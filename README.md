@@ -4,8 +4,8 @@
 2- **Be x/ibc-transfer-enabled:** Chain should already have the x/ibc-transfer module enabled.                                 
 3- **Enabled ICS-20:** Implement the ICS-20 Token Transfer standard for transferring assets via IBC.                                   
 4- **IBC Relayers**                                                                                                
-5- **Add Axelar-Specific IBC Configuration**
-6- **Channel Setup**
+5- **Add Axelar-Specific IBC Configuration**                                                                                    
+6- **Channel Setup**                                                                                                    
 7- **Connection Parameters**
 
 # CrossChain Transfer
